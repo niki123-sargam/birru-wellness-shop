@@ -202,10 +202,28 @@ Customize:
   <script>
     // Sample products - edit or replace images in images/ folder
     const products = [
-      {id:1, name:'Vitamin C Supplement (60 caps)', price:449, img:'images/vitamin.jpg', desc:'Immune support, doctor-recommended dose.'},
-      {id:2, name:'Authentic Chawanprash', price:599, img:'images/chawanprash.jpg', desc:'Calming herbal blend for daily use.'},
-      {id:3, name:'Pure Ghee', price:1599, img:'images/ghee.jpg', desc:'The Golden Standard of Good Health.'}
-    ];
+    {
+        id: 1, 
+        name: 'Vitamin C Supplement', 
+        price: 449, 
+        img: 'images/vitamin.jpg', 
+        desc: 'Immune support, doctor-recommended dose.'
+    },
+    {
+        id: 2, 
+        name: 'Authentic Chyawanprash', 
+        price: 599, 
+        img: 'images/chawanprash.jpg', 
+        desc: 'Calming herbal blend for daily use.'
+    },
+    {
+        id: 3, 
+        name: 'Pure Ghee', 
+        price: 1599, 
+        img: 'images/ghee.jpg', 
+        desc: 'The Golden Standard of Good Health.'
+    }
+];
 
     const productsGrid = document.getElementById('products-grid');
     const cartCountEl = document.getElementById('cart-count');
