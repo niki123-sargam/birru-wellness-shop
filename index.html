@@ -137,7 +137,7 @@ Customize:
     <section class="hero" id="home">
       <div class="hero-left">
         <h2>Doctor-supported wellness delivered to your doorstep</h2>
-        <p>Birru Wellness Store is founded to provide trusted, high-quality wellness products recommended by a medical professional. From supplements to home-care kits — handpicked for safety and effectiveness.</p>
+        <p>Birru Wellness Store was founded on simple motivate to bring the purity of traditional Indian nutrition back to your home . We specialize in 100% organic,handmade food essentials - including authentic Chawanprash , Pure Ghee, Raw Honey , and nutrient rich Dry Fruit laddos and Supplements,crafted naturally without preservatives , our products offer the wholesome goodness of homemade wellness .</p>
         <div class="cta">
           <button class="btn" onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">Shop Products</button>
         </div>
@@ -152,11 +152,17 @@ Customize:
       <div class="about">
         <img src="IMAGES/doctor.jpg" alt="doctor" onerror="this.src='https://via.placeholder.com/220x220?text=Doctor'">
         <div>
-          <p style="margin-top:0; color:var(--muted)"><strong>Dr. Sumit Birru (BAMS)</strong> is a General Physician based in Solapur with years of clinical experience. This store is an extension of his practice — a carefully curated collection of wellness products that are safe, effective and patient-focused.</p>
+          <p style="margin-top:0; color:var(--muted)"><strong>Dr. Sumit Birru (BAMS)</strong> is a trusted General Physician in Solapur with over 3 years of clinical experience. He founded Birru Wellness Store to solve a common problem his patients faced: finding authentic, chemical-free health products in a market full of fake labels.
+
+This store is an extension of his medical practice—a carefully curated collection of wellness products that are safe, effective, and patient-focused..</p>
           <ul style="color:var(--muted)">
-            <li>Personalized product recommendations</li>
-            <li>Doctor-approved formulations</li>
-            <li>Fast doorstep delivery</li>
+            <li>
+📋Personalized product recommendations</li>
+            <li> 
+🌿Doctor-approved formulations</li>
+            <li>
+
+🚀Fast doorstep delivery</li>
           </ul>
         </div>
       </div>
@@ -239,7 +245,7 @@ Customize:
           <h4>${p.name}</h4>
           <div class='price'>₹${p.price}</div>
           <div style='color:var(--muted); font-size:13px; margin-top:6px'>${p.desc}</div>
-          <button style='margin-bottom:8px;' onclick='addToCart(${p.id})'>Add to Cart</button>
+          <button style='margin-bottom:8px;' onclick='addToCart(${p.id})'>Buy Now</button>
         `;
         productsGrid.appendChild(div);
       });
@@ -300,7 +306,7 @@ Customize:
           <h4>${p.name}</h4>
           <div class='price'>₹${p.price}</div>
           <div style='color:var(--muted); font-size:13px; margin-top:6px'>${p.desc}</div>
-          <button onclick='addToCart(${p.id})'>Add to Cart</button>
+          <button onclick='addToCart(${p.id})'>Buy Now </button>
           <a href="https://wa.me/917021333677?text=I%20want%20to%20order%20${encodeURIComponent(p.name)}" target="_blank" style="display:block; margin-top:8px; background:#25D366; color:white; padding:10px; border-radius:10px; text-decoration:none; font-weight:600;">Order on WhatsApp</a>
         `;
         productsGrid.appendChild(div);
